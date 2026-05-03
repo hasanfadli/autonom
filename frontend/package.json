@@ -1,7 +1,6 @@
 {
   "name": "ai-dev-ui",
   "scripts": {
-  "scripts": {
 
     "dev": "vite",
 
