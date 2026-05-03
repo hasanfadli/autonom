@@ -46,3 +46,4 @@ new Worker(
 );
 
 console.log("Worker running...");
+console.log("REDIS_URL:", process.env.REDIS_URL);
