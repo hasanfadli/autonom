@@ -1,0 +1,29 @@
+CREATE TABLE tasks (
+
+  id TEXT PRIMARY KEY,
+
+  type TEXT,
+
+  status TEXT,
+
+  input JSONB,
+
+  output JSONB,
+
+  created_at TIMESTAMP DEFAULT NOW()
+
+);
+
+CREATE TABLE logs (
+
+  id SERIAL PRIMARY KEY,
+
+  agent TEXT,
+
+  action TEXT,
+
+  data JSONB,
+
+  created_at TIMESTAMP DEFAULT NOW()
+
+);
