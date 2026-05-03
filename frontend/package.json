@@ -2,7 +2,8 @@
   "name": "ai-dev-ui",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "start": "node server.js"
   },
   "dependencies": {
     "react": "^18",
