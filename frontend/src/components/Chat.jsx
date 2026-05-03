@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "https://autonom-production.up.railway.app/"; // GANTI
+const API = "https://adaptable-vision-production.up.railway.app"; // GANTI
 
 export default function Chat() {
   const [text, setText] = useState("");
