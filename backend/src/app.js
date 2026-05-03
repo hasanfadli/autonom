@@ -7,4 +7,4 @@ app.use(cors());
 app.use(express.json());
 app.use("/", routes);
 
-app.listen(process.env.PORT||3000,()=>console.log("API running"));
+app.listen(process.env.PORT||8080,()=>console.log("API running"));
